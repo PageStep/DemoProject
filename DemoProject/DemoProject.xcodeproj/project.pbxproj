@@ -229,10 +229,10 @@
 			isa = PBXGroup;
 			children = (
 				15CC73A51FFCA6BF006F0ED6 /* Ad */,
+				15CC73F21FFCA6BF006F0ED6 /* Main */,
 				15CC73AE1FFCA6BF006F0ED6 /* Essence */,
 				15CC73D31FFCA6BF006F0ED6 /* Follow */,
 				15CC73E11FFCA6BF006F0ED6 /* LoginRegister */,
-				15CC73F21FFCA6BF006F0ED6 /* Main */,
 				15CC73FA1FFCA6BF006F0ED6 /* Me */,
 				15CC74091FFCA6BF006F0ED6 /* Other */,
 				15CC741D1FFCA6BF006F0ED6 /* Tool */,
@@ -289,23 +289,12 @@
 		15CC73AF1FFCA6BF006F0ED6 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				15CC73B01FFCA6BF006F0ED6 /* PLAllViewController.h */,
-				15CC73B11FFCA6BF006F0ED6 /* PLAllViewController.m */,
 				15CC73B21FFCA6BF006F0ED6 /* PLEssenceViewController.h */,
 				15CC73B31FFCA6BF006F0ED6 /* PLEssenceViewController.m */,
-				15CC73B41FFCA6BF006F0ED6 /* PLPictureViewController.h */,
-				15CC73B51FFCA6BF006F0ED6 /* PLPictureViewController.m */,
-				15CC73B61FFCA6BF006F0ED6 /* PLPostViewController.h */,
-				15CC73B71FFCA6BF006F0ED6 /* PLPostViewController.m */,
 				15CC73B81FFCA6BF006F0ED6 /* PLSeeBigPictureViewController.h */,
 				15CC73B91FFCA6BF006F0ED6 /* PLSeeBigPictureViewController.m */,
 				15CC73BA1FFCA6BF006F0ED6 /* PLSeeBigPictureViewController.xib */,
-				15CC73BB1FFCA6BF006F0ED6 /* PLVideoViewController.h */,
-				15CC73BC1FFCA6BF006F0ED6 /* PLVideoViewController.m */,
-				15CC73BD1FFCA6BF006F0ED6 /* PLVoiceViewController.h */,
-				15CC73BE1FFCA6BF006F0ED6 /* PLVoiceViewController.m */,
-				15CC73BF1FFCA6BF006F0ED6 /* PLWordViewController.h */,
-				15CC73C01FFCA6BF006F0ED6 /* PLWordViewController.m */,
+				15CC74661FFD1636006F0ED6 /* Post */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -411,16 +400,16 @@
 		15CC73E71FFCA6BF006F0ED6 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				15CC73E81FFCA6BF006F0ED6 /* PLFastLoginButton.h */,
-				15CC73E91FFCA6BF006F0ED6 /* PLFastLoginButton.m */,
-				15CC73EA1FFCA6BF006F0ED6 /* PLFastLoginView.h */,
-				15CC73EB1FFCA6BF006F0ED6 /* PLFastLoginView.m */,
-				15CC73EC1FFCA6BF006F0ED6 /* PLFastLoginView.xib */,
-				15CC73ED1FFCA6BF006F0ED6 /* PLLoginRegisterTextField.h */,
-				15CC73EE1FFCA6BF006F0ED6 /* PLLoginRegisterTextField.m */,
 				15CC73EF1FFCA6BF006F0ED6 /* PLLoginRegisterView.h */,
 				15CC73F01FFCA6BF006F0ED6 /* PLLoginRegisterView.m */,
 				15CC73F11FFCA6BF006F0ED6 /* PLLoginRegisterView.xib */,
+				15CC73ED1FFCA6BF006F0ED6 /* PLLoginRegisterTextField.h */,
+				15CC73EE1FFCA6BF006F0ED6 /* PLLoginRegisterTextField.m */,
+				15CC73EA1FFCA6BF006F0ED6 /* PLFastLoginView.h */,
+				15CC73EB1FFCA6BF006F0ED6 /* PLFastLoginView.m */,
+				15CC73EC1FFCA6BF006F0ED6 /* PLFastLoginView.xib */,
+				15CC73E81FFCA6BF006F0ED6 /* PLFastLoginButton.h */,
+				15CC73E91FFCA6BF006F0ED6 /* PLFastLoginButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -550,6 +539,25 @@
 				15CC74201FFCA6BF006F0ED6 /* PLFileTool.m */,
 			);
 			path = File;
+			sourceTree = "<group>";
+		};
+		15CC74661FFD1636006F0ED6 /* Post */ = {
+			isa = PBXGroup;
+			children = (
+				15CC73B61FFCA6BF006F0ED6 /* PLPostViewController.h */,
+				15CC73B71FFCA6BF006F0ED6 /* PLPostViewController.m */,
+				15CC73B01FFCA6BF006F0ED6 /* PLAllViewController.h */,
+				15CC73B11FFCA6BF006F0ED6 /* PLAllViewController.m */,
+				15CC73B41FFCA6BF006F0ED6 /* PLPictureViewController.h */,
+				15CC73B51FFCA6BF006F0ED6 /* PLPictureViewController.m */,
+				15CC73BB1FFCA6BF006F0ED6 /* PLVideoViewController.h */,
+				15CC73BC1FFCA6BF006F0ED6 /* PLVideoViewController.m */,
+				15CC73BD1FFCA6BF006F0ED6 /* PLVoiceViewController.h */,
+				15CC73BE1FFCA6BF006F0ED6 /* PLVoiceViewController.m */,
+				15CC73BF1FFCA6BF006F0ED6 /* PLWordViewController.h */,
+				15CC73C01FFCA6BF006F0ED6 /* PLWordViewController.m */,
+			);
+			name = Post;
 			sourceTree = "<group>";
 		};
 		4B64FC07A1C167DE92CFBAE5 /* Pods */ = {
