@@ -2,7 +2,7 @@
 
 ### 模块1-主页
 
-![]https://github.com/PageStep/DemoProject/raw/master/Screenshots/Shot1.png
+![](https://github.com/PageStep/DemoProject/raw/master/Screenshots/Shot1.png)
 
 - 显示娱乐视频, 图片, 文字...
  - 点击视频播放, 点击图片查看大图
