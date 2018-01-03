@@ -1,29 +1,29 @@
 # DemoProject 展示
 
-### 模块-主页
+## 模块-主页
 - 显示娱乐视频, 图片, 文字...
  - 点击视频播放, 点击图片查看大图
  - 查看大图时, 点击保存, 保存到系统相册和APP对应相册
  - 下拉刷新, 上拉加载更多
  - 左右滑动切换视频, 图片...界面
  
-![](https://github.com/PageStep/DemoProject/raw/master/Shot1.png)
+![](https://github.com/PageStep/DemoProject/raw/master/Screenshots/Shot1.png)
 
-### 模块-关注
+## 模块-关注
 - 点击推荐关注, 弹出推荐列表
 
-### 模块-登陆界面
+## 模块-登陆界面
 - 点击弹出登陆界面或注册界面
 
-### 模块-我的
+## 模块-我的
 - 详情界面
 - 设置界面, 显示已使用缓存, 点击清除缓存
 
-![](https://github.com/PageStep/DemoProject/raw/master/5.png)
+![](https://github.com/PageStep/DemoProject/raw/master/Screenshots/5.png)
 
 # DemoProject 设计思路
 
-### 基本架构
+## 基本架构
 - window.rootViewController -> UITabBarController
 - tabBarController.viewControllers -> UINavigationController
 - navigationController.rootViewController -> UIViewController / UITableViewController
@@ -37,7 +37,7 @@
    - 2.设置控制器的navigationItem.leftBarButtonItem为自定义的UIBarButtonItem, 替换系统的UIBarButtonItem样式, 替换后, 系统的滑动返回手势失效
   - 在self.view中添加一个全屏滑动返回手势, 利用系统的手势代理调用系统的手势代理方法
   
-### 模块-主页
+## 模块-主页
 #### 1.主页控制器中 (UIViewController)
 
 - 1.设置导航栏的内容
@@ -104,7 +104,7 @@
 - 4.利用系统的Photos框架, 提供保存图片到系统相册和APP对应相册的功能
 
 
-### 模块-关注
+## 模块-关注
 #### 1.关注控制器中 (UIViewController), 创建xib描述
 - 1.搭建界面, 提供自定义方法快速设置导航栏的barButtonItem
 > 在自定义方法中, 把UIButton包装成UIBarButtonItem会导致按钮点击区域扩大, 解决方案: 用添加了button的view来代替
@@ -114,7 +114,7 @@
 - 2.在cell中设置图片时, 利用Quartz2D把图片裁剪成圆形
 
 
-### 模块-登陆界面
+## 模块-登陆界面
 #### 1.登陆界面控制器 (UIViewController), 同时创建xib描述
 - 1.登陆界面分为上, 中, 下, 3块区域, 控制器的xib中搭建上面的区域
 
@@ -131,7 +131,7 @@
 - 2.提供类方法, 加载xib中的view
 
 
-### 模块-我的
+## 模块-我的
 #### 1.详情界面 (UITableViewController), 同时创建storyboard描述
 - 1.创建有流水布局的collectionView作为tableView的tableFooterView
 - 2.用MVC设计模式展示collectionView中的cell
@@ -140,7 +140,9 @@
 #### 2.设置界面 (UITableViewController), 同时创建storyboard描述
 - 1.自定义文件管理工具, 实现计算缓存大小的方法(计算操作异步执行), 实现删除缓存的方法
 
+
 ### 其它
+
 - 用到的第三方框架
  - AFNetworking
  - SDWebImage
