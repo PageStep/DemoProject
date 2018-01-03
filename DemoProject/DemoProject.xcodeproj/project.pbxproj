@@ -65,7 +65,7 @@
 		15CC74551FFCA6BF006F0ED6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC741A1FFCA6BF006F0ED6 /* main.m */; };
 		15CC74561FFCA6BF006F0ED6 /* PLConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC741C1FFCA6BF006F0ED6 /* PLConst.m */; };
 		15CC74571FFCA6BF006F0ED6 /* PLFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 15CC74201FFCA6BF006F0ED6 /* PLFileTool.m */; };
-		15CC745F1FFCCB34006F0ED6 /* Shot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15CC745E1FFCCB34006F0ED6 /* Shot1.png */; };
+		15CC74621FFCCB7F006F0ED6 /* Shot1.png in Resources */ = {isa = PBXBuildFile; fileRef = 15CC74611FFCCB7F006F0ED6 /* Shot1.png */; };
 		44AC94FCBB1682DBBC35193A /* libPods-DemoProject.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 01EF41CC7FCC4F1788329614 /* libPods-DemoProject.a */; };
 /* End PBXBuildFile section */
 
@@ -172,7 +172,7 @@
 		15CC741C1FFCA6BF006F0ED6 /* PLConst.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLConst.m; sourceTree = "<group>"; };
 		15CC741F1FFCA6BF006F0ED6 /* PLFileTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PLFileTool.h; sourceTree = "<group>"; };
 		15CC74201FFCA6BF006F0ED6 /* PLFileTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PLFileTool.m; sourceTree = "<group>"; };
-		15CC745E1FFCCB34006F0ED6 /* Shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot1.png; sourceTree = "<group>"; };
+		15CC74611FFCCB7F006F0ED6 /* Shot1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Shot1.png; sourceTree = "<group>"; };
 		82995725FE30C618BD47FDDF /* Pods-DemoProject.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.debug.xcconfig"; sourceTree = "<group>"; };
 		CD42AD04402C63C74866E375 /* Pods-DemoProject.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DemoProject.release.xcconfig"; path = "Pods/Target Support Files/Pods-DemoProject/Pods-DemoProject.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -192,7 +192,7 @@
 		15CC72C91FFC8CBC006F0ED6 = {
 			isa = PBXGroup;
 			children = (
-				15CC745D1FFCCB34006F0ED6 /* Screenshots */,
+				15CC74601FFCCB7F006F0ED6 /* Screenshots */,
 				15CC72D41FFC8CBC006F0ED6 /* DemoProject */,
 				15CC72D31FFC8CBC006F0ED6 /* Products */,
 				4B64FC07A1C167DE92CFBAE5 /* Pods */,
@@ -555,12 +555,13 @@
 			path = File;
 			sourceTree = "<group>";
 		};
-		15CC745D1FFCCB34006F0ED6 /* Screenshots */ = {
+		15CC74601FFCCB7F006F0ED6 /* Screenshots */ = {
 			isa = PBXGroup;
 			children = (
-				15CC745E1FFCCB34006F0ED6 /* Shot1.png */,
+				15CC74611FFCCB7F006F0ED6 /* Shot1.png */,
 			);
-			path = Screenshots;
+			name = Screenshots;
+			path = ../Screenshots;
 			sourceTree = "<group>";
 		};
 		4B64FC07A1C167DE92CFBAE5 /* Pods */ = {
@@ -659,7 +660,7 @@
 				15CC74411FFCA6BF006F0ED6 /* PLFastLoginView.xib in Resources */,
 				15CC74291FFCA6BF006F0ED6 /* PLSeeBigPictureViewController.xib in Resources */,
 				15CC742F1FFCA6BF006F0ED6 /* PLPostCell.xib in Resources */,
-				15CC745F1FFCCB34006F0ED6 /* Shot1.png in Resources */,
+				15CC74621FFCCB7F006F0ED6 /* Shot1.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
