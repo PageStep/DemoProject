@@ -31,8 +31,8 @@
 - 1.在tabBarController中分别设置navigationController的tabBarItem.title, tabBarItem.image, tabBarItem.selectedImage
 
 - 2.自定义UINavigationController
- - 重写+(void)load方法, 设置导航栏上全局的标题字体属性和全局的背景图片
- - 重写pushViewController...方法, 拦截push出来的控制器
+  - 重写+(void)load方法, 设置导航栏上全局的标题字体属性和全局的背景图片
+  - 重写pushViewController...方法, 拦截push出来的控制器
    - 1.设置控制器的属性, `hidesBottomBarWhenPushed = YES`
    - 2.设置控制器的navigationItem.leftBarButtonItem为自定义的UIBarButtonItem, 替换系统的UIBarButtonItem样式, 替换后, 系统的滑动返回手势失效
   - 在self.view中添加一个全屏滑动返回手势, 利用系统的手势代理调用系统的手势代理方法
