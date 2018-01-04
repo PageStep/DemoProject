@@ -6,22 +6,24 @@
   - 查看大图时, 点击保存, 保存到系统相册和APP对应相册
   - 下拉刷新, 上拉加载更多
   - 左右滑动切换视频, 图片...界面
-  
+   
 ![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/1.jpg)
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/2.jpg)
 
 ## 模块-关注
 - 点击推荐关注, 弹出推荐列表
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/3.jpg)
+
+![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/2.jpg)
 
 ## 模块-登陆界面
 - 点击弹出登陆界面或注册界面
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/4.jpg)
+
+![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/3.jpg)
 
 ## 模块-我的
 - 详情界面
 - 设置界面, 显示已使用缓存, 点击清除缓存
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/5.jpg)
+
+![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/4.jpg)
 
 
 # DemoProject 设计思路
