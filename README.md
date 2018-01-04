@@ -154,4 +154,3 @@
   - MJExtension
   - MJRefresh
   - SVProgressHUD
-- 注意: Assets.xcassets中的mainCellBackground图片要在xib中设置其slicing属性, 设置拉伸时的保护区域
