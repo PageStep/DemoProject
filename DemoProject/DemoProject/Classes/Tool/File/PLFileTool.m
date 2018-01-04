@@ -13,7 +13,7 @@
 + (void)getFileSize:(NSString *)directoryPath completion:(void(^)(NSInteger))completion
 {
     
-    // 获取文件管理者
+    // 获取文件管 理者
     NSFileManager *mgr = [NSFileManager defaultManager];
     BOOL isDirectory;
     BOOL isExist = [mgr fileExistsAtPath:directoryPath isDirectory:&isDirectory];
