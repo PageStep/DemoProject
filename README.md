@@ -1,29 +1,29 @@
 # DemoProject 展示
 
 ## 模块-主页
-- 显示娱乐视频, 图片, 文字...
+- 显示视频, 图片, 文字...
+  - 左右滑动切换视频, 图片...界面
   - 点击视频播放, 点击图片查看大图
   - 查看大图时, 点击保存, 保存到系统相册和APP对应相册
   - 下拉刷新, 上拉加载更多
-  - 左右滑动切换视频, 图片...界面
-   
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/1.jpg)
+     
+![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/1.gif)
 
 ## 模块-关注
 - 点击推荐关注, 弹出推荐列表
 
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/2.jpg)
+![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/2.gif)
 
 ## 模块-登陆界面
 - 点击弹出登陆界面或注册界面
 
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/3.jpg)
+![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/3.gif)
 
 ## 模块-我的
 - 详情界面
 - 设置界面, 显示已使用缓存, 点击清除缓存
 
-![图片](https://github.com/PageStep/DemoProject/raw/master/Screenshots/4.jpg)
+![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/4.gif)
 
 
 # DemoProject 设计思路
@@ -102,7 +102,7 @@
   - 计算自定义view的frame赋值给viewFrame属性
 - 2.在自定义cell的layoutSubviews方法中, 把数据模型中的viewFrame赋值给自定义view, 完成view在cell中的布局
 
-#### 6.自定义UIViewController, 来查看大图, 同时创建xib
+### 6.自定义UIViewController, 来查看大图, 同时创建xib
 - 1.添加scrollView, 并在scrollView上添加点按手势来退出控制器
 - 2.在scrollView中添加imageView, 根据image大小来布局imageView
 - 3.设置`scrollView.maximumZoomScale`来缩放图片 (需要实现UIScrollView代理方法: `viewForZoomingInScrollView:` )

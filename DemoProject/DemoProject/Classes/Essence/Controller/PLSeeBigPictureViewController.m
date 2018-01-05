@@ -66,6 +66,7 @@
     
 }
 
+
 #pragma mark - <UIScrollViewDelegate>
 - (UIView *)viewForZoomingInScrollView:(UIScrollView *)scrollView {
     return self.imageView;
@@ -73,6 +74,9 @@
 
 #pragma mark - 返回上一界面
 - (IBAction)goBack {
+    
+    [SVProgressHUD dismiss];
+    
     [self dismissViewControllerAnimated:YES completion:nil];
 }
 
