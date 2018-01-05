@@ -8,6 +8,7 @@
   - 下拉刷新, 上拉加载更多
      
 ![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/1.gif)
+![gif](https://github.com/PageStep/DemoProject/raw/master/Screenshots/5.jpg)
 
 ## 模块-关注
 - 点击推荐关注, 弹出推荐列表
