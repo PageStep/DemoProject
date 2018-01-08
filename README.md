@@ -41,7 +41,9 @@
   - 重写 pushViewController... 方法, 拦截 push 出来的控制器
     - 1.设置控制器的属性, `hidesBottomBarWhenPushed = YES`
     - 2.设置控制器的 navigationItem.leftBarButtonItem 为自定义的 UIBarButtonItem, 替换系统的 UIBarButtonItem 样式, 替换后, 系统的滑动返回手势失效
-    - 3.在 self.view 中添加一个全屏滑动返回手势, 利用系统的手势代理调用系统的手势代理方法
+  
+  - 在 self.view 中添加一个 UIPanGestureRecognizer, 利用系统的手势代理调用系统的手势代理方法, 实现全屏滑动返回
+  - 禁用导航控制器本身的手势，`self.interactivePopGestureRecognizer.enabled = NO;`
   
 ## 模块-主页
 ### 1.主页控制器中 (UIViewController)
