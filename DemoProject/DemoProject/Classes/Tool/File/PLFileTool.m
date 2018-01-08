@@ -47,7 +47,7 @@
             if (!isExist || isDirectory) continue;
             
             // 获取文件属性
-            // attributesOfItemAtPath:只能获取文件尺寸,获取文件夹不对,
+            // attributesOfItemAtPath:只能获取文件尺寸, 不能获取文件夹尺寸,
             NSDictionary *attr = [mgr attributesOfItemAtPath:filePath error:nil];
             
             // 获取文件size
@@ -84,7 +84,7 @@
         
     }
     
-    // 获取cache文件夹下所有文件,不包括子路径的子路径
+    // 获取文件夹下所有文件,不包括子路径的子路径
     NSArray *subPaths = [mgr contentsOfDirectoryAtPath:directoryPath error:nil];
     
     for (NSString *subPath in subPaths) {
