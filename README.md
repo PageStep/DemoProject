@@ -143,7 +143,10 @@
 - 3.实现 UICollectionView 的代理方法, 监听 cell 的点击, 如果可以打开 URL, 创建 SFSafariViewController, 并且以 modal 形式弹出 (可以响应"完成"按钮的点击)
 
 ### 2.设置界面 (UITableViewController), 同时创建 storyboard
-- 1.自定义文件管理工具, 实现计算缓存大小的方法(计算操作异步执行), 实现删除缓存的方法
+- 1.实现清除缓存的功能
+  - 使用 NSFileManager 获取沙盒中 Cache 路径下所有子文件的全路径，异步线程中计算大小
+  - 在主线程中更新计算后的数据
+  - 使用 NSFileManager 获取沙盒中 Cache 路径下子文件的全路径，然后删除
 
 
 ## 其它
