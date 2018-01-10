@@ -129,7 +129,7 @@
 - 1.自定义 textField
   - 设置光标颜色为白色
   - 监听 textField, 开始编辑时占位文字颜色为 whiteColor, 结束编辑时占位文字颜色为 lightGrayColor
-  - textField 并没有占位文字颜色这个属性, 但是可以利用 runtime, 获取 UITextField的私有属性 placeholderLabel, 拿到这个属性后, 再设置其颜色
+  - textField 并没有占位文字颜色这个属性, 但是可以利用 runtime, 获取 UITextField 的私有属性 placeholderLabel, 拿到这个属性后, 再设置其颜色
 - 2.xib 中, 注册 view 和登陆 view 只是 button 的 title 不一样而已
 - 3.提供类方法, 加载 xib 中的 view
 
